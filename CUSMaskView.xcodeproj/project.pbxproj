@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1D506918A9C7E200295157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D506818A9C7E200295157 /* Foundation.framework */; };
+		2A1D506B18A9C7E200295157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D506A18A9C7E200295157 /* CoreGraphics.framework */; };
+		2A1D506D18A9C7E200295157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D506C18A9C7E200295157 /* UIKit.framework */; };
+		2A1D508218A9C7E200295157 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D508118A9C7E200295157 /* XCTest.framework */; };
+		2A1D508318A9C7E200295157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D506818A9C7E200295157 /* Foundation.framework */; };
+		2A1D508418A9C7E200295157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D506C18A9C7E200295157 /* UIKit.framework */; };
+		2A1D508C18A9C7E200295157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D508A18A9C7E200295157 /* InfoPlist.strings */; };
+		2A1D508E18A9C7E200295157 /* CUSMaskViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D508D18A9C7E200295157 /* CUSMaskViewTests.m */; };
+		2A1D50C118A9C91900295157 /* CUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D50B918A9C91900295157 /* CUSAppDelegate.m */; };
+		2A1D50C218A9C91900295157 /* CUSMaskView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D50BA18A9C91900295157 /* CUSMaskView-Info.plist */; };
+		2A1D50C318A9C91900295157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D50BD18A9C91900295157 /* InfoPlist.strings */; };
+		2A1D50C418A9C91900295157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D50BF18A9C91900295157 /* Images.xcassets */; };
+		2A1D50C518A9C91900295157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D50C018A9C91900295157 /* main.m */; };
+		2A1D50CB18A9CA7100295157 /* CUSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D50CA18A9CA7100295157 /* CUSExampleViewController.m */; };
+		2A1D50D218A9DDC700295157 /* CUSFlashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D50D118A9DDC700295157 /* CUSFlashLabel.m */; };
+		2A2D3AA218B1E8F300A6B99E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3AA118B1E8F300A6B99E /* QuartzCore.framework */; };
+		2A2D3AA518B1E9AA00A6B99E /* CUSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D3AA418B1E9AA00A6B99E /* CUSTestView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1D508518A9C7E200295157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1D505D18A9C7E200295157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1D506418A9C7E200295157;
+			remoteInfo = CUSMaskView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1D506518A9C7E200295157 /* CUSMaskView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUSMaskView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D506818A9C7E200295157 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A1D506A18A9C7E200295157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A1D506C18A9C7E200295157 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A1D508018A9C7E200295157 /* CUSMaskViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUSMaskViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D508118A9C7E200295157 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A1D508918A9C7E200295157 /* CUSMaskViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CUSMaskViewTests-Info.plist"; sourceTree = "<group>"; };
+		2A1D508B18A9C7E200295157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A1D508D18A9C7E200295157 /* CUSMaskViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUSMaskViewTests.m; sourceTree = "<group>"; };
+		2A1D50B818A9C91900295157 /* CUSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSAppDelegate.h; sourceTree = "<group>"; };
+		2A1D50B918A9C91900295157 /* CUSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSAppDelegate.m; sourceTree = "<group>"; };
+		2A1D50BA18A9C91900295157 /* CUSMaskView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CUSMaskView-Info.plist"; sourceTree = "<group>"; };
+		2A1D50BB18A9C91900295157 /* CUSMaskView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CUSMaskView-Prefix.pch"; sourceTree = "<group>"; };
+		2A1D50BE18A9C91900295157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		2A1D50BF18A9C91900295157 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A1D50C018A9C91900295157 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A1D50C918A9CA7100295157 /* CUSExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSExampleViewController.h; sourceTree = "<group>"; };
+		2A1D50CA18A9CA7100295157 /* CUSExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSExampleViewController.m; sourceTree = "<group>"; };
+		2A1D50D018A9DDC700295157 /* CUSFlashLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSFlashLabel.h; sourceTree = "<group>"; };
+		2A1D50D118A9DDC700295157 /* CUSFlashLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSFlashLabel.m; sourceTree = "<group>"; };
+		2A2D3AA118B1E8F300A6B99E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2A2D3AA318B1E9AA00A6B99E /* CUSTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSTestView.h; sourceTree = "<group>"; };
+		2A2D3AA418B1E9AA00A6B99E /* CUSTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSTestView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1D506218A9C7E200295157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2D3AA218B1E8F300A6B99E /* QuartzCore.framework in Frameworks */,
+				2A1D506B18A9C7E200295157 /* CoreGraphics.framework in Frameworks */,
+				2A1D506D18A9C7E200295157 /* UIKit.framework in Frameworks */,
+				2A1D506918A9C7E200295157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D507D18A9C7E200295157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D508218A9C7E200295157 /* XCTest.framework in Frameworks */,
+				2A1D508418A9C7E200295157 /* UIKit.framework in Frameworks */,
+				2A1D508318A9C7E200295157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1D505C18A9C7E200295157 = {
+			isa = PBXGroup;
+			children = (
+				2A1D506E18A9C7E200295157 /* CUSMaskView */,
+				2A1D50B718A9C8C900295157 /* Example */,
+				2A1D509718A9C80D00295157 /* Resource */,
+				2A1D508718A9C7E200295157 /* CUSMaskViewTests */,
+				2A1D506718A9C7E200295157 /* Frameworks */,
+				2A1D506618A9C7E200295157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1D506618A9C7E200295157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D506518A9C7E200295157 /* CUSMaskView.app */,
+				2A1D508018A9C7E200295157 /* CUSMaskViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1D506718A9C7E200295157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D3AA118B1E8F300A6B99E /* QuartzCore.framework */,
+				2A1D506818A9C7E200295157 /* Foundation.framework */,
+				2A1D506A18A9C7E200295157 /* CoreGraphics.framework */,
+				2A1D506C18A9C7E200295157 /* UIKit.framework */,
+				2A1D508118A9C7E200295157 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A1D506E18A9C7E200295157 /* CUSMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D50D018A9DDC700295157 /* CUSFlashLabel.h */,
+				2A1D50D118A9DDC700295157 /* CUSFlashLabel.m */,
+			);
+			path = CUSMaskView;
+			sourceTree = "<group>";
+		};
+		2A1D508718A9C7E200295157 /* CUSMaskViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D508D18A9C7E200295157 /* CUSMaskViewTests.m */,
+				2A1D508818A9C7E200295157 /* Supporting Files */,
+			);
+			path = CUSMaskViewTests;
+			sourceTree = "<group>";
+		};
+		2A1D508818A9C7E200295157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D508918A9C7E200295157 /* CUSMaskViewTests-Info.plist */,
+				2A1D508A18A9C7E200295157 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A1D509718A9C80D00295157 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2A1D50B718A9C8C900295157 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D50CC18A9CA7E00295157 /* Supporting Files */,
+				2A1D50B818A9C91900295157 /* CUSAppDelegate.h */,
+				2A1D50B918A9C91900295157 /* CUSAppDelegate.m */,
+				2A1D50C918A9CA7100295157 /* CUSExampleViewController.h */,
+				2A1D50CA18A9CA7100295157 /* CUSExampleViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2A1D50BC18A9C91900295157 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D50BD18A9C91900295157 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		2A1D50CC18A9CA7E00295157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D50BA18A9C91900295157 /* CUSMaskView-Info.plist */,
+				2A1D50BB18A9C91900295157 /* CUSMaskView-Prefix.pch */,
+				2A1D50BC18A9C91900295157 /* en.lproj */,
+				2A1D50BF18A9C91900295157 /* Images.xcassets */,
+				2A1D50C018A9C91900295157 /* main.m */,
+				2A2D3AA318B1E9AA00A6B99E /* CUSTestView.h */,
+				2A2D3AA418B1E9AA00A6B99E /* CUSTestView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1D506418A9C7E200295157 /* CUSMaskView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D509118A9C7E200295157 /* Build configuration list for PBXNativeTarget "CUSMaskView" */;
+			buildPhases = (
+				2A1D506118A9C7E200295157 /* Sources */,
+				2A1D506218A9C7E200295157 /* Frameworks */,
+				2A1D506318A9C7E200295157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUSMaskView;
+			productName = CUSMaskView;
+			productReference = 2A1D506518A9C7E200295157 /* CUSMaskView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A1D507F18A9C7E200295157 /* CUSMaskViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1D509418A9C7E200295157 /* Build configuration list for PBXNativeTarget "CUSMaskViewTests" */;
+			buildPhases = (
+				2A1D507C18A9C7E200295157 /* Sources */,
+				2A1D507D18A9C7E200295157 /* Frameworks */,
+				2A1D507E18A9C7E200295157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1D508618A9C7E200295157 /* PBXTargetDependency */,
+			);
+			name = CUSMaskViewTests;
+			productName = CUSMaskViewTests;
+			productReference = 2A1D508018A9C7E200295157 /* CUSMaskViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1D505D18A9C7E200295157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CUS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zhangyu;
+				TargetAttributes = {
+					2A1D507F18A9C7E200295157 = {
+						TestTargetID = 2A1D506418A9C7E200295157;
+					};
+				};
+			};
+			buildConfigurationList = 2A1D506018A9C7E200295157 /* Build configuration list for PBXProject "CUSMaskView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A1D505C18A9C7E200295157;
+			productRefGroup = 2A1D506618A9C7E200295157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1D506418A9C7E200295157 /* CUSMaskView */,
+				2A1D507F18A9C7E200295157 /* CUSMaskViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1D506318A9C7E200295157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D50C418A9C91900295157 /* Images.xcassets in Resources */,
+				2A1D50C218A9C91900295157 /* CUSMaskView-Info.plist in Resources */,
+				2A1D50C318A9C91900295157 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D507E18A9C7E200295157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D508C18A9C7E200295157 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1D506118A9C7E200295157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D50C518A9C91900295157 /* main.m in Sources */,
+				2A1D50C118A9C91900295157 /* CUSAppDelegate.m in Sources */,
+				2A2D3AA518B1E9AA00A6B99E /* CUSTestView.m in Sources */,
+				2A1D50CB18A9CA7100295157 /* CUSExampleViewController.m in Sources */,
+				2A1D50D218A9DDC700295157 /* CUSFlashLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1D507C18A9C7E200295157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1D508E18A9C7E200295157 /* CUSMaskViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1D508618A9C7E200295157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1D506418A9C7E200295157 /* CUSMaskView */;
+			targetProxy = 2A1D508518A9C7E200295157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1D508A18A9C7E200295157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1D508B18A9C7E200295157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A1D50BD18A9C91900295157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1D50BE18A9C91900295157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1D508F18A9C7E200295157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A1D509018A9C7E200295157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A1D509218A9C7E200295157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/CUSMaskView-Prefix.pch";
+				INFOPLIST_FILE = "Example/CUSMaskView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A1D509318A9C7E200295157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/CUSMaskView-Prefix.pch";
+				INFOPLIST_FILE = "Example/CUSMaskView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A1D509518A9C7E200295157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CUSMaskView.app/CUSMaskView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/CUSMaskView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CUSMaskViewTests/CUSMaskViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A1D509618A9C7E200295157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CUSMaskView.app/CUSMaskView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/CUSMaskView-Prefix.pch";
+				INFOPLIST_FILE = "CUSMaskViewTests/CUSMaskViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1D506018A9C7E200295157 /* Build configuration list for PBXProject "CUSMaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D508F18A9C7E200295157 /* Debug */,
+				2A1D509018A9C7E200295157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1D509118A9C7E200295157 /* Build configuration list for PBXNativeTarget "CUSMaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D509218A9C7E200295157 /* Debug */,
+				2A1D509318A9C7E200295157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1D509418A9C7E200295157 /* Build configuration list for PBXNativeTarget "CUSMaskViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D509518A9C7E200295157 /* Debug */,
+				2A1D509618A9C7E200295157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1D505D18A9C7E200295157 /* Project object */;
+}
