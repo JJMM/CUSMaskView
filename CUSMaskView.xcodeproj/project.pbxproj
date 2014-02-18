@@ -24,6 +24,8 @@
 		2A1D50D218A9DDC700295157 /* CUSFlashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D50D118A9DDC700295157 /* CUSFlashLabel.m */; };
 		2A2D3AA218B1E8F300A6B99E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3AA118B1E8F300A6B99E /* QuartzCore.framework */; };
 		2A2D3AA518B1E9AA00A6B99E /* CUSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D3AA418B1E9AA00A6B99E /* CUSTestView.m */; };
+		2A89856118B335A30097163A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A89855F18B335A30097163A /* Icon.png */; };
+		2A89856218B335A30097163A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A89856018B335A30097163A /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		2A2D3AA118B1E8F300A6B99E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2A2D3AA318B1E9AA00A6B99E /* CUSTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSTestView.h; sourceTree = "<group>"; };
 		2A2D3AA418B1E9AA00A6B99E /* CUSTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSTestView.m; sourceTree = "<group>"; };
+		2A89855F18B335A30097163A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2A89856018B335A30097163A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 		2A1D509718A9C80D00295157 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2A89855F18B335A30097163A /* Icon.png */,
+				2A89856018B335A30097163A /* Icon@2x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A89856118B335A30097163A /* Icon.png in Resources */,
 				2A1D50C418A9C91900295157 /* Images.xcassets in Resources */,
 				2A1D50C218A9C91900295157 /* CUSMaskView-Info.plist in Resources */,
 				2A1D50C318A9C91900295157 /* InfoPlist.strings in Resources */,
+				2A89856218B335A30097163A /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
