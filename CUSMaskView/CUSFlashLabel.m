@@ -125,33 +125,25 @@
     
     CGFloat y = 0.0f;
     if (self.contentMode == UIViewContentModeCenter) {
-        y = ceil(rect.size.height/2 + _font.capHeight/2);
+        y = ceil(rect.size.height/2 - _font.lineHeight/2);
         
     } else if (self.contentMode == UIViewContentModeBottom) {
-        y = rect.size.height + _font.descender;
-        
+        y = rect.size.height - _font.lineHeight;
     } else {
-        y = _font.capHeight;
+        y = 0;
     }
-    
-    CGContextSelectFont(context, [_font.fontName UTF8String], _font.pointSize, kCGEncodingMacRoman);
-    CGContextSetTextDrawingMode(context, kCGTextFill);
-    CGContextSetTextMatrix(context, CGAffineTransformScale(CGAffineTransformIdentity, 1, -1));
-    
     CGContextSetFillColorWithColor(context, _textColor.CGColor);
-    CGContextShowTextAtPoint(context, x, y, [self.text UTF8String], self.text.length);
-    
+    [self.text drawAtPoint:CGPointMake(x, y) withFont:self.font];
     if (_timer) {
-        CGPoint spotOrigin = CGPointMake(x + (textSize.width * _spotlightPoint),
-                                         y - ceil(self.font.capHeight/2));
-        CGFloat spotRadius = self.font.capHeight*2;
+        CGPoint spotOrigin = CGPointMake(x + (textSize.width * _spotlightPoint),y);
+        CGFloat spotRadius = self.font.lineHeight*2;
         
         CGImageRef mask = [self newSpotlightMask:rect origin:spotOrigin radius:spotRadius];
         CGContextClipToMask(context, rect, mask);
         CGImageRelease(mask);
         
         [_spotlightColor setFill];
-        CGContextShowTextAtPoint(context, x, y, [self.text UTF8String], self.text.length);
+        [self.text drawAtPoint:CGPointMake(x, y) withFont:self.font];
     }
 }
 
